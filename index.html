@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Akhil Sai Charan's accessible personal portfolio showcasing skills, projects and contact information.">
+  <meta name="keywords" content="Akhil Sai Charan, portfolio, CSE, web development, Java, C, accessibility">
+  <meta name="author" content="Akhil Sai Charan">
+  <meta name="robots" content="index, follow">
+  <title>Akhil Sai Charan | CSE Student Portfolio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="Akhil Sai Charan home">Akhil<span>Dev</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Toggle navigation menu</span>
+        ☰
+      </button>
+      <nav id="primary-navigation" class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">CSE Student • Developer • Learner</p>
+          <h1 id="hero-title">Hello, I'm <span>Akhil Sai Charan</span>.</h1>
+          <p class="lead">I am a Computer Science Engineering student interested in programming, web development, data structures and emerging technologies.</p>
+          <div class="button-group">
+            <a class="button primary" href="projects.html">View Projects</a>
+            <a class="button secondary" href="contact.html">Contact Me</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Portfolio highlights">
+          <div class="avatar" aria-hidden="true">ASC</div>
+          <h2>Computer Science Engineering</h2>
+          <p>Building simple, useful and accessible digital experiences.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="highlights-title">
+      <div class="container">
+        <p class="eyebrow">What I do</p>
+        <h2 id="highlights-title">Portfolio Highlights</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Programming</h3>
+            <p>Practice with C, Java, Python and problem-solving fundamentals.</p>
+          </article>
+          <article class="card">
+            <h3>Web Development</h3>
+            <p>Create responsive websites using semantic HTML, CSS and JavaScript.</p>
+          </article>
+          <article class="card">
+            <h3>Data Structures</h3>
+            <p>Learn arrays, stacks, queues, trees, graphs and algorithmic techniques.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" aria-labelledby="cta-title">
+      <div class="container center">
+        <h2 id="cta-title">Let's build something useful.</h2>
+        <p>Explore my work or send me a message.</p>
+        <a class="button primary" href="contact.html">Get in Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span class="current-year">2026</span> Akhil Sai Charan. All rights reserved.</p>
+      <nav aria-label="Footer navigation">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
